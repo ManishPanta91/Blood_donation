@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center w-7xl mx-auto bottom-0 p-10 bg-[#CD1C18] text-white mt-10">
+    <div className="flex justify-between items-center w-full  bottom-0 p-10 bg-[#CD1C18] text-white mt-10">
       <div className="flex pl-60 space-x-30 items-center">
         <p className="">@2025 LifeDrop</p>
 
