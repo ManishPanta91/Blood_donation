@@ -5,6 +5,9 @@ import AboutPage from "../Pages/AboutPage";
 import Servicepage from "../Pages/Servicepage";
 import Form from "../Components/form/Form";
 import Contact from "../Pages/Contact";
+// import Postdetail from "../Pages/Postdetail";
+import FakePage from "../Pages/FakePage";
+import AddPost from "../Pages/AddPost";
 
 const Router = () => {
   return (
@@ -14,8 +17,9 @@ const Router = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/service" element={<Servicepage />} />
         <Route path="/contact" element={<Contact />} />
-
         <Route path="/form" element={<Form />} />
+        <Route path="/details/:id" element={<FakePage />} />
+        <Route path="/add-post" element={<AddPost />} />
       </Routes>
     </>
   );
