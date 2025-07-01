@@ -52,7 +52,7 @@ const Navbar = () => {
             </div>
             </NavLink>
           {/* Contact US */}
-          <NavLink to="/contact">
+          <NavLink  to="/contact">
           <div className="flex items-center gap-1 cursor-pointer text-[white]">
             <IoIosContact />
             <p>Contact Us</p>
