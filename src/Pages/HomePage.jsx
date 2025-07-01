@@ -5,7 +5,6 @@ import Detail from "../Components/Body/Detail";
 import { useGetsPostsQuery } from "../APP/posts/postApi";
 import { useNavigate } from "react-router-dom";
 import { useGetsfakeQuery } from "../APP/posts/fakeApi";
-
 const HomePage = () => {
   const { data, isloading, isError, isFetching } = useGetsfakeQuery();
   console.log("fakeapi data:", data);

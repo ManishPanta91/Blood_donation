@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuopen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 w-full   shadow-md px-10 md:px-4 bg-[#CD1C18]">
+    <div className="fixed top-0 left-0 w-full z-50   shadow-md px-10 md:px-4 bg-[#CD1C18]">
       <div className="flex justify-between items-center max-w-7xl mx-auto  ">
         <img
           className="w-[100px] h-[80px]  hover:cursor-pointer object-contain"

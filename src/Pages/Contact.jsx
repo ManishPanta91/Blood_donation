@@ -13,7 +13,7 @@ const Contact = () => {
     <section className="bg-white text-gray-800 py-10 px-6 md:px-20" id="contact">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-red-600 mb-6">Contact Us</h2>
-        <p className="text-center text-gray-600 mb-10">
+        <p className="text-center text-gray-600 mb-10 text-3xl font-serif">
           Have questions about blood donation or want to partner with LifeDrop? Reach out—we’d love to hear from you!
         </p>
 

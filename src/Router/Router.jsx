@@ -20,6 +20,7 @@ const Router = () => {
         <Route path="/form" element={<Form />} />
         <Route path="/details/:id" element={<FakePage />} />
         <Route path="/add-post" element={<AddPost />} />
+       
       </Routes>
     </>
   );
