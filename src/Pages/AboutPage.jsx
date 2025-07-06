@@ -10,7 +10,7 @@ import {
 
 const AboutPage = () => {
   return (
-    <section className="bg-gradient-to-br from-red-600 via-red-500 to-red-700 text-white min-h-screen p-6 md:p-12">
+    <section className="bg-gradient-to-br mt-20 bg-red-600  text-white min-h-screen p-6 md:p-12">
       {/* Hero Section */}
       <div className="text-center mb-16">
         <div className="inline-flex items-center justify-center  backdrop-blur-lg rounded-full w-20 h-20 mx-auto animate-pulse">
