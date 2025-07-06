@@ -8,6 +8,7 @@ import Contact from "../Pages/Contact";
 // import Postdetail from "../Pages/Postdetail";
 import FakePage from "../Pages/FakePage";
 import AddPost from "../Pages/AddPost";
+import UpdatePost from "../Pages/UpdatePost";
 
 const Router = () => {
   return (
@@ -20,6 +21,7 @@ const Router = () => {
         <Route path="/form" element={<Form />} />
         <Route path="/details/:id" element={<FakePage />} />
         <Route path="/add-post" element={<AddPost />} />
+        <Route path="/updatepost/:id" element={<UpdatePost />} />
        
       </Routes>
     </>

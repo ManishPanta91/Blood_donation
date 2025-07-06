@@ -1,7 +1,10 @@
-import React from "react";
+import React from 'react'
 
-const Form = () => {
-  return <div className="mt-[100px]">Form</div>;
-};
+const AddForm = () => {
+  return (
+      <h3>hdshhhs</h3>
+     
+  )
+}
 
-export default Form;
+export default AddForm

@@ -18,10 +18,10 @@ export const postApi = createApi({
     addPost: builder.mutation({
       query: (q) => ({
         url: "/posts",
-        method: "POST",
+        method:"POST",
         body: q,
         headers: {
-          "Content-type": "application/json; charset=UTF-8",
+          "Content-type": "application/json",
         },
       }),
     }),

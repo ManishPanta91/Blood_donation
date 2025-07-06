@@ -20,6 +20,7 @@ const Postdetail = () => {
         <div className="mt-[120px] max-w-5xl mx-auto p-10 bg-amber-100">
           <h2 className="text-3xl font-bold">Title: {data?.title}</h2>
           <p>{data?.body}</p>
+         
         </div>
       )}
     </div>

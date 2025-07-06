@@ -13,12 +13,22 @@ export const fakeApi = createApi({
     getsfakebyid: builder.query({
       query: (id) => `/products/${id}`,
     }),
+     updateproduct: builder.mutation({
+      query: (q) => ({
+        url: `/products/${q.id}`,
+        method:"PUT",
+        body: q,
+        headers: {
+          "Content-type": "application/json",
+        },
+      }),
+    })
   }),
 });
 
 // Export hooks for usage in functional components, which are
 // auto-generated based on the defined endpoints
-export const { useGetsfakeQuery, useGetsfakebyidQuery } = fakeApi;
+export const { useGetsfakeQuery, useGetsfakebyidQuery,useUpdateproductMutation } = fakeApi;
 
 // HTTP METHODS
 // GET    query

@@ -102,7 +102,7 @@ const Servicepage = () => {
   };
 
   return (
-    <div className="min-h-screen mt-20 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
+    <div className="min-h-screen mt-20 bg-gradient-to-br from-red-300 via-orange-200 to-pink-500">
       <div className="max-w-7xl mx-auto px-4 py-16">
         {/* Section Header */}
         <div className="text-center mb-16 text-white">

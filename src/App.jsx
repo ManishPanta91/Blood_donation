@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Router from "./Router/Router";
 import Layout from "./Layour/Layout";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -53,7 +54,15 @@ function App() {
     ))}
   </ul>
 //  </div> */}
-     <Layout/>
+
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        closeOnClick={false}
+        pauseOnFocusLoss
+      />
+      <Layout />
     </>
   );
 }
